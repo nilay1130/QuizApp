@@ -1,0 +1,17 @@
+{
+  "book": "kitap",
+  "pencil": "kalem",
+  "computer": "bilgisayar",
+  "nail": "týrnak",
+  "flower": "çiçek",
+  "dog": "köpek",
+  "cat": "kedi",
+  "mouse": "fare",
+  "clock": "saat",
+  "cloud": "bulut",
+  "window": "pencere",
+  "door": "kapý",
+  "ocean": "okyanus",
+  "sea": "deniz",
+  "jellyfish": "denizanasý"
+}

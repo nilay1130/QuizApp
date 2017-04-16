@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#597b7b"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ceng427.quizapp.TrainingActivity">
+
+    <TextView
+        android:id="@+id/txtWelcome"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:color="#39444f"
+        android:gravity="center_horizontal"
+        android:text="TextView"
+        android:textSize="30sp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtEng"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="82dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="TextView"
+        android:color="#39444f"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtWelcome"
+        android:background="@drawable/bkg"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <TextView
+        android:id="@+id/txtTr"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="27dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="TextView"
+        android:color="#39444f"
+        android:textSize="20sp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="@drawable/bkg"
+        app:layout_constraintTop_toBottomOf="@+id/txtEng" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:icon="@android:drawable/ic_menu_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:text="BACK"
+        android:textColor="@drawable/custom_button_text_color"
+        android:layout_marginTop="31dp"
+        app:layout_constraintTop_toBottomOf="@+id/txtTr"
+        android:layout_marginLeft="81dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="81dp" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:textColor="@drawable/custom_button_text_color"
+        android:background="@drawable/custom_button"
+        android:layout_marginTop="31dp"
+        app:layout_constraintTop_toBottomOf="@+id/txtTr"
+        android:layout_marginRight="81dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/btnBack"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintHorizontal_bias="0.66"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="81dp" />
+
+</android.support.constraint.ConstraintLayout>
